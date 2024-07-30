@@ -18,7 +18,7 @@ function Card({ data, system }) {
         <p>{timeNow}</p>
 
         <main className="my-5 grid grid-cols-2 justify-items-center items-center gap-x-4 md:max-w-72">
-          <span className="row-span-2 text-8xl">{icon}</span>
+          <span className="row-span-2 text-8xl drop-shadow-md">{icon}</span>
           
           <div className="text-5xl relative">
             {data.temp} 
