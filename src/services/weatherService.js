@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const APIkey = 'eae01c211bb82d34eac5e6011311350d';
+const APIkey = process.env.REACT_APP_API_KEY;
 
 export const fetchWeatherData = async (city, units) => {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&appid=${APIkey}`;
