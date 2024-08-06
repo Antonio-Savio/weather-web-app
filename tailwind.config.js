@@ -10,6 +10,10 @@ module.exports = {
         mono2: '#60a5fa',
         mono3: '#93c5fd',
         mono4: '#2563eb',
+      },
+
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
       }
     },
   },
