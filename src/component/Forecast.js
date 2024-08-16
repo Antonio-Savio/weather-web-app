@@ -9,6 +9,17 @@ function Forecast({forecastData, system}) {
   const [rightOpacity, setRightOpacity] = useState(1)
   const spacing = 150
 
+  // Função para verificar e responder ao tamanho da tela
+  function checkScreenSize() {
+    if (window.innerWidth > 768) {
+      setOffset(0)
+      setLeftOpacity(0.4)
+      setRightOpacity(1)
+    }
+  }
+
+  window.addEventListener('resize', checkScreenSize);
+
   function handleLeftClick() {
     if (offset !== 0) {
       setOffset(offset + spacing)
