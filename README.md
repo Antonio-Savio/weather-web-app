@@ -2,7 +2,7 @@
 This app is able to search for a city, state/region, or country and exhibit the current weather data, forecast in a 3-hour gap and toggle between Celsius and Fahrenheit. Developed with React.js and Tailwind CSS using OpenWeather API.
 
 ## Mobile Version
-<img src="src/assets/mobile-gif.gif" width="260px">
+<img src="src/assets/mobile-version-weather.gif" width="350px">
 
 ## Desktop Version
 <img src="src/assets/desktop-gif.gif">
