@@ -8,7 +8,7 @@ import Units from "./component/Units";
 import NotFound from "./component/NotFound";
 
 function App() {
-  const [city, setCity] = useState('Aracaju')
+  const [city, setCity] = useState('São Paulo')
   const [data, setData] = useState(null)
   const [hourlyForecast, setHourlyForecast] = useState(null);
   const [units, setUnits] = useState('metric')
