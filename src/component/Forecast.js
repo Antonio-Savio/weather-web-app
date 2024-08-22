@@ -9,7 +9,6 @@ function Forecast({forecastData, system}) {
   const [rightOpacity, setRightOpacity] = useState(1)
   const spacing = 150
 
-  // Função para verificar e responder ao tamanho da tela
   function checkScreenSize() {
     if (window.innerWidth > 768) {
       setOffset(0)
@@ -42,7 +41,6 @@ function Forecast({forecastData, system}) {
 
   return (
     <>
-      {/* <h3>Forecast</h3> */}
       <div className='relative flex flex-none items-center overflow-hidden md:overflow-visible'>
         <ul className='flex gap-5 max-w-xs transition duration-500 p-5 md:max-w-none' style={{ transform: `translateX(${offset}px)` }}>
             
