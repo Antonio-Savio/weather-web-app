@@ -17,11 +17,11 @@ function Form({setLocation}){
     
 
     return (
-        <form method="get" className="flex mt-7">
+        <form method="get" className="flex mx-2 mt-7">
             <input 
                 type="text"
                 placeholder="Enter a city or country"
-                className="p-2 rounded-s-2xl outline-none md:w-96"
+                className="p-2 rounded-s-2xl max-w-72 outline-none md:w-96"
                 onChange={e => setInput(e.target.value)}
                 ref={inputRef}
              />
