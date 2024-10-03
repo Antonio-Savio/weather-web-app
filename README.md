@@ -1,6 +1,9 @@
 <h1 align='center'>Weather Web App</h1>
 This app is able to search for a city, state/region, or country and exhibit the current weather data, forecast in a 3-hour gap and toggle between Celsius and Fahrenheit. Developed with React.js and Tailwind CSS using OpenWeather API.
 
+## Access the Application 🌍
+[Weather Web App](https://weather-web-app-black-three.vercel.app/)
+
 ## Mobile Version 📱
 <img src="src/assets/mobile-version-weather.gif" width="350px">
 
