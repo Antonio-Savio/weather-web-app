@@ -25,3 +25,28 @@ This app is able to search for a city, state/region, or country and exhibit the 
 - React JS
 - Tailwind CSS
 - Axios library
+
+## How to Run the Project
+### Requirements 🚀
+- Node.js installed
+- npm or yarn package manager
+
+### Steps
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/usuario/weather-web-app.git
+2. Install dependencies:
+
+   ```bash
+   cd weather-web-app
+   npm install
+3. Create a .env file in the project root and add your OpenWeather API key:
+
+   ```
+   REACT_APP_OPENWEATHER_API_KEY='YOUR_KEY_HERE'
+4. Run the project locally:
+
+   ```
+   npm start
+5. Access the application at http://localhost:3000.
