@@ -22,9 +22,10 @@ This app is able to search for a city, state/region, or country and exhibit the 
 - Error triggering if entered location does not exist
 
 ## Used Technologies ⚙️
-- React JS
-- Tailwind CSS
-- Axios library
+- **React JS**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid styling and responsive design.
+- **Axios**: HTTP client library used to fetch data from the OpenWeather API.
+- **OpenWeather API**: Real-time weather data service used to provide climate and forecast information.
 
 ## How to Run the Project
 ### Requirements 🚀
@@ -44,9 +45,15 @@ This app is able to search for a city, state/region, or country and exhibit the 
 3. Create a .env file in the project root and add your OpenWeather API key:
 
    ```
-   REACT_APP_OPENWEATHER_API_KEY='YOUR_KEY_HERE'
+   REACT_APP_API_KEY='YOUR_KEY_HERE'
 4. Run the project locally:
 
    ```
    npm start
 5. Access the application at http://localhost:3000.
+
+## License 📄
+
+This project is licensed under the [MIT License](LICENSE). 
+
+You are free to use, modify, and distribute this software for personal and commercial purposes, as long as the original license and copyright notice are included. There is no warranty for the code provided, and the author is not liable for any issues arising from the use of this software.
